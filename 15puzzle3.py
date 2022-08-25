@@ -76,6 +76,7 @@ check
 rarray()
 while gameOn:  # Main Game loop
     screen.fill((color[0]))
+    time.sleep(0.1)
     for x in range(4):
         for y in range(4):
             if num[x, y] != 0 and result3 == False:
@@ -138,6 +139,5 @@ while gameOn:  # Main Game loop
                                 )
 
     pg.display.update()
-print(num)
 print(num)
 print(wCheck)
